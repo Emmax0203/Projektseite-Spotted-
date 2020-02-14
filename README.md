@@ -1,1 +1,1 @@
-# Projektseite-Spotted-
+# Projektseite: Spotted!
