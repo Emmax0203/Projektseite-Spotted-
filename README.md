@@ -10,6 +10,16 @@
 
 [ Funktionen](#Funktionen)
 
+[ MistakeFound](#MistakeFound)
+
+[ Misclick](#Misclick)
+
+[ Endgame](#Endgame)
+
+[ Restart](#Restart)
+
+[ Scoreboard](#fScoreboard)
+
 [ Die Buttons](#Buttons)
 
 [ Das Suchbild](#Suchbild)
@@ -44,28 +54,28 @@ Bei "Spotted!" gibt es insgesamt 5 Screens: Den WelcomeScreen, den man zu Beginn
 
 Um nicht immer wieder denselben Code schreiben zu müssen, haben wir ein paar kleine Funktionen geschrieben, um nur diese bei Bedarf aufrufen zu müssen. Dies sind die MistakeFound - und die Misclick - Funktion sowie die Endgame -, Restart - und Scoreboard - Funktion. 
 
-### MistakeFound
+### MistakeFound<a name="MistakeFound"></a>
 
 Die MistakeFound - Funktion beschränkt sich auf wenige Zeilen Code. Sie erhöht lediglich den Spotted - Counter um 1, um so den Überblick zu behalten, spielt einen Sound zur Bestätigung ab und ändert den Text über dem Suchbild, sodass man jederzeit nachschauen kann, wie viele Fehler man gefunden hat und wie viele noch fehlen.
 
 
-### Misclick
+### Misclick<a name="Misclick"></a>
 
 Auch die Misclick - Funktion ist kurz gehalten. Innerhalb dieser Funktion wird dem Spieler wegen des Misclicks ein Leben abgezogen, der entsprechende Sound zur akustischen Bestätigung ausgegeben und der Text über dem Spielfeld geändert, sodass man stets weiß, wie viele Fehler man sich noch erlauben kann. Die Spielmechanik der Leben bzw. des Misclicks haben wir eingeführt, um zu verhindern, dass der Spieler einfach wahllos auf dem Suchbild herumklickt und so durch Zufall Fehler findet, sondern stattdessen wirklich sucht und nur klickt, wenn er sich sicher ist, dass er einen Fehler gefunden hat. 
 
 
-### Endgame
+### Endgame<a name="Endgame"></a>
 
 Diese Funktion wird unter "Spielende"(#Spielende) erklärt.
 
 
-### Restart
+### Restart<a name="Restart"></a>
 
 Nachdem das Spiel beendet ist, kann man natürlich das Spiel ein weiteres Mal spielen. Dazu müssen alle Buttons erneut auf dem Spielfeld erscheinen, der genaue Grund wird bei "Das Suchbild"(#Suchbild) ausgeführt. Zudem müssen sowohl der Lives - Counter als auch der 
 Spotted - Counter zurückgesetzt werden. Desweiteren muss natürlich auch die Zeit von Neuem gemessen werden und die Texte, die die Anzahl verbleibender Fehler und Leben anzeigt, aktualisiert werden.
 
 
-### Scoreboard
+### Scoreboard<a name="fScoreboard"></a>
 
 Diese Funktion erklären wir seperat bei "Das Scoreboard"(#Scoreboard).
 
@@ -79,7 +89,9 @@ Mithilfe der Buttons kann man im Spiel von einem Screen zum nächsten gelangen. 
 
 ## Das Suchbild<a name="Suchbild"></a>
 
-Das Suchbild ist der Hauptbestandteil von "Spotted!". Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir 9 Fehler im Bild haben, haben wir 9 Buttons mit den Namen F1 - F9 eingeführt. Jeder 
+Das Suchbild ist der Hauptbestandteil von "Spotted!". Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir 9 Fehler im Bild haben, haben wir 9 Buttons mit den Namen F1 - F9 eingeführt. Jeder Button hat denselben Code, der beim Anklicken abgerufen wird. 
+
+Zudem ist das ganze untere Bild vom MisclickButton abgedeckt, sodass bei einem Misclick dieser Button getroffen wird
 
 
 ## Spielende<a name="Ende"></a>
@@ -89,7 +101,9 @@ Das Suchbild ist der Hauptbestandteil von "Spotted!". Das Suchbild haben wir aus
 
 ## Das Scoreboard<a name="Scoreboard"></a>
 
+Diese Funktion ist schon wesentlich umfangreicher als die beiden vorangegangenen. Diese Funktion beendet das Spiel. Sie prüft, ob mit dem aktuellen Klick entweder der letzte Fehler gefunden wurde oder das letzte Leben abgezogen wurde. 
 
+Sollte der letzte Fehler gefunden worden
 
 
 ## Schlusswort<a name="Schlusswort"></a>
