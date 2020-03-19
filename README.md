@@ -2,23 +2,23 @@
 
 ## Inhaltsverzeichnis
 
-[1. Einleitung](#Einleitung)
+[ Einleitung](#Einleitung)
 
-[2. Spielidee](#Spielidee)
+[ Spielidee](#Spielidee)
 
-[3. Die einzelnen Screens](#Screens)
+[ Die einzelnen Screens](#Screens)
 
-[4. Funktionen](#Funktionen)
+[ Funktionen](#Funktionen)
 
-[5. Die Buttons](#Buttons)
+[ Die Buttons](#Buttons)
 
-[6. Das Suchbild](#Suchbild)
+[ Das Suchbild](#Suchbild)
 
-[7. Spielende](#Ende)
+[ Spielende](#Ende)
 
-[8. Das Scoreboard](#Scoreboard)
+[ Das Scoreboard](#Scoreboard)
 
-[9. Schlusswort](#Schlusswort)
+[ Schlusswort](#Schlusswort)
 
 
 ## Einleitung<a name="Einleitung"></a>
@@ -46,22 +46,23 @@ Um nicht immer wieder denselben Code schreiben zu müssen, haben wir ein paar kl
 
 ### MistakeFound
 
-
+Die MistakeFound - Funktion beschränkt sich auf wenige Zeilen Code. Sie erhöht lediglich den Spotted - Counter um 1, um so den Überblick zu behalten, spielt einen Sound zur Bestätigung ab und ändert den Text über dem Suchbild, sodass man jederzeit nachschauen kann, wie viele Fehler man gefunden hat und wie viele noch fehlen.
 
 
 ### Misclick
 
-
+Auch die Misclick - Funktion ist kurz gehalten. Innerhalb dieser Funktion wird dem Spieler wegen des Misclicks ein Leben abgezogen, der entsprechende Sound zur akustischen Bestätigung ausgegeben und der Text über dem Spielfeld geändert, sodass man stets weiß, wie viele Fehler man sich noch erlauben kann. Die Spielmechanik der Leben bzw. des Misclicks haben wir eingeführt, um zu verhindern, dass der Spieler einfach wahllos auf dem Suchbild herumklickt und so durch Zufall Fehler findet, sondern stattdessen wirklich sucht und nur klickt, wenn er sich sicher ist, dass er einen Fehler gefunden hat. 
 
 
 ### Endgame
 
-
+Diese Funktion wird unter "Spielende"(#Spielende) erklärt.
 
 
 ### Restart
 
-
+Nachdem das Spiel beendet ist, kann man natürlich das Spiel ein weiteres Mal spielen. Dazu müssen alle Buttons erneut auf dem Spielfeld erscheinen, der genaue Grund wird bei "Das Suchbild"(#Suchbild) ausgeführt. Zudem müssen sowohl der Lives - Counter als auch der 
+Spotted - Counter zurückgesetzt werden. Desweiteren muss natürlich auch die Zeit von Neuem gemessen werden und die Texte, die die Anzahl verbleibender Fehler und Leben anzeigt, aktualisiert werden.
 
 
 ### Scoreboard
