@@ -58,6 +58,8 @@ Um nicht immer wieder denselben Code schreiben zu müssen, haben wir ein paar kl
 
 Die MistakeFound - Funktion beschränkt sich auf wenige Zeilen Code. Sie erhöht lediglich den Spotted - Counter um 1, um so den Überblick zu behalten, spielt einen Sound zur Bestätigung ab und ändert den Text über dem Suchbild, sodass man jederzeit nachschauen kann, wie viele Fehler man gefunden hat und wie viele noch fehlen.
 
+![Spottedfunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Spottedfunktion.PNG)
+
 
 ### Misclick<a name="Misclick"></a>
 
