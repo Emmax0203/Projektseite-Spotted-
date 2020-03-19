@@ -49,6 +49,30 @@ Um die Übersicht zu wahren, haben wir viel Gebrauch von der neuen Funktion von 
 
 Bei ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) gibt es insgesamt 5 Screens: Den WelcomeScreen, den man zu Beginn sieht, den GameScreen, auf welchem sich das Spiel befindet, und schließlich die beiden Enden des Spiels als GameOverScreen und CongratsScreen. Um den Ehrgeiz der Spieler zu wecken, habem wir zudem ein Scoreboard programmiert, welches auf dem ScoreboardScreen zu sehen. 
 
+![WelcomeScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/WelcomeScreen.PNG)
+
+Der WelcomeScreen
+
+
+![GameScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/GameScreen.PNG)
+
+Der GameScreen
+
+
+![CongratsScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/CongratsScreen.PNG)
+
+Der CongratsScreen
+
+
+![GameOverScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/GameScreen.PNG)
+
+Der GameOverScreen
+
+
+![Scoreboard](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/ScoreboardScreen.PNG)
+
+Das Scoreboard
+
 
 ## Funktionen<a name="Funktionen"></a>
 
