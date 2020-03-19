@@ -120,6 +120,8 @@ Mithilfe der Buttons kann man im Spiel von einem Screen zum nächsten gelangen. 
 
 Die Ausnahme bildet der ScoreboardButton, da dieser noch initiiert, dass die Top 5 der schnellsten Sucher in der richtigen Reihenfolge angezeigt werden. Details dazu unter ["Das Scoreboard"](#Scoreboard).
 
+Zudem wird bei dem StartButton die Zeitmessung gestartet, um die Zeit mssen zu können, die zum Finden aller Fehler gebraucht wird.
+
 
 ## Das Suchbild<a name="Suchbild"></a>
 
