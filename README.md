@@ -51,27 +51,27 @@ Bei ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKa
 
 ![WelcomeScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/WelcomeScreen.PNG)
 
-Der WelcomeScreen
+#### Der WelcomeScreen
 
 
 ![GameScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/GameScreen.PNG)
 
-Der GameScreen
+#### Der GameScreen
 
 
 ![CongratsScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/CongratsScreen.PNG)
 
-Der CongratsScreen
+#### Der CongratsScreen
 
 
 ![GameOverScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/GameScreen.PNG)
 
-Der GameOverScreen
+#### Der GameOverScreen
 
 
 ![Scoreboard](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/ScoreboardScreen.PNG)
 
-Das Scoreboard
+#### Das Scoreboard
 
 
 ## Funktionen<a name="Funktionen"></a>
