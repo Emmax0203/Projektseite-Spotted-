@@ -65,6 +65,8 @@ Die MistakeFound - Funktion beschränkt sich auf wenige Zeilen Code. Sie erhöht
 
 Auch die Misclick - Funktion ist kurz gehalten. Innerhalb dieser Funktion wird dem Spieler wegen des Misclicks ein Leben abgezogen, der entsprechende Sound zur akustischen Bestätigung ausgegeben und der Text über dem Spielfeld geändert, sodass man stets weiß, wie viele Fehler man sich noch erlauben kann. Die Spielmechanik der Leben bzw. des Misclicks haben wir eingeführt, um zu verhindern, dass der Spieler einfach wahllos auf dem Suchbild herumklickt und so durch Zufall Fehler findet, sondern stattdessen wirklich sucht und nur klickt, wenn er sich sicher ist, dass er einen Fehler gefunden hat. 
 
+![Misclickfunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Misclickfunktion.PNG)
+
 
 ### Endgame<a name="Endgame"></a>
 
@@ -75,6 +77,8 @@ Diese Funktion wird unter "Spielende"(#Spielende) erklärt.
 
 Nachdem das Spiel beendet ist, kann man natürlich das Spiel ein weiteres Mal spielen. Dazu müssen alle Buttons erneut auf dem Spielfeld erscheinen, der genaue Grund wird bei "Das Suchbild"(#Suchbild) ausgeführt. Zudem müssen sowohl der Lives - Counter als auch der 
 Spotted - Counter zurückgesetzt werden. Desweiteren muss natürlich auch die Zeit von Neuem gemessen werden und die Texte, die die Anzahl verbleibender Fehler und Leben anzeigt, aktualisiert werden.
+
+![Restartfunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Restartfunktion.PNG)
 
 
 ### Scoreboard<a name="fScoreboard"></a>
@@ -91,7 +95,9 @@ Mithilfe der Buttons kann man im Spiel von einem Screen zum nächsten gelangen. 
 
 ## Das Suchbild<a name="Suchbild"></a>
 
-Das Suchbild ist der Hauptbestandteil von "Spotted!"(https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU). Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir 9 Fehler im Bild haben, haben wir 9 Buttons mit den Namen F1 - F9 eingeführt. Jeder Button hat denselben Code, der beim Anklicken abgerufen wird. 
+Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU). Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir 9 Fehler im Bild haben, haben wir 9 Buttons mit den Namen F1 - F9 eingeführt. Jeder Button hat denselben Code, der beim Anklicken abgerufen wird. 
+
+![F1ButtonCode](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/F1%20Button.PNG)
 
 Zudem ist das ganze untere Bild vom MisclickButton abgedeckt, sodass bei einem Misclick dieser Button getroffen wird. Dadurch kann das Spiel eindeutig feststellen, was angeklickt wird, ohne ein Leben abgezogen wird, wenn außerhalb des unteren Bilds geklickt wird. 
 
