@@ -94,7 +94,7 @@ Auch die Misclick - Funktion ist kurz gehalten. Innerhalb dieser Funktion wird d
 
 ### Endgame<a name="Endgame"></a>
 
-Diese Funktion wird unter "Spielende"(#Spielende) erklärt.
+Diese Funktion wird unter ["Spielende"](#Spielende) erklärt.
 
 
 ### Restart<a name="Restart"></a>
@@ -107,7 +107,7 @@ Spotted - Counter zurückgesetzt werden. Desweiteren muss natürlich auch die Ze
 
 ### Scoreboard<a name="fScoreboard"></a>
 
-Diese Funktion erklären wir seperat bei "Das Scoreboard"(#Scoreboard).
+Diese Funktion erklären wir seperat bei ["Das Scoreboard"](#Scoreboard).
 
 
 
