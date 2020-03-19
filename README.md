@@ -116,6 +116,10 @@ Diese Funktion erklären wir seperat bei ["Das Scoreboard"](#Scoreboard).
 
 Mithilfe der Buttons kann man im Spiel von einem Screen zum nächsten gelangen. Dazu gibt es den Start-Button auf dem WelcomeScreen sowie die Restart-Buttons auf den SpielendeScreens und dem Scoreboard, um den GameScreen aufzurufen. Findet man alle Fehler, kann man über einen Button vom CongratsScreen das Scoreboard anschauen. Dazu haben wir onEvent - Befehle verwendet, bei denen der Screen über den setScreen - Befehl gewechselt wird.
 
+![RestartButtons](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Restartbuttons.PNG)
+
+Die Ausnahme bildet der ScoreboardButton, da dieser noch initiiert, dass die Top 5 der schnellsten Sucher in der richtigen Reihenfolge angezeigt werden. Details dazu unter ["Das Scoreboard"](#Scoreboard).
+
 
 ## Das Suchbild<a name="Suchbild"></a>
 
