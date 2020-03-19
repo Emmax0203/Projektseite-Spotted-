@@ -127,7 +127,14 @@ Zudem wird bei dem StartButton die Zeitmessung gestartet, um die Zeit mssen zu k
 
 Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU). Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir 9 Fehler im Bild haben, haben wir 9 Buttons mit den Namen F1 - F9 eingeführt. Jeder Button hat denselben Code, der beim Anklicken abgerufen wird. 
 
+![Suchbild mit sichtbaren Buttons](https://github.com/AntoniaJohannes/Stundenprotokoll-2/blob/master/Suchbild%20Fehler%20Markiert.PNG)
+
+#### Das Suchbild mit den Buttons auf den Fehlern
+
 ![F1ButtonCode](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/F1%20Button.PNG)
+
+#### Code für die FehlerButtons, exemplarisch F1
+
 
 Zudem ist das ganze untere Bild vom MisclickButton abgedeckt, sodass bei einem Misclick dieser Button getroffen wird. Dadurch kann das Spiel eindeutig feststellen, was angeklickt wird, ohne ein Leben abgezogen wird, wenn außerhalb des unteren Bilds geklickt wird. 
 
