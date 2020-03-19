@@ -114,7 +114,7 @@ Diese Funktion erklären wir seperat bei ["Das Scoreboard"](#Scoreboard).
 ## Die Buttons<a name="Buttons"></a>
 
 
-Mithilfe der Buttons kann man im Spiel von einem Screen zum nächsten gelangen. Dazu gibt es den Start-Button auf dem WelcomeScreen sowie die Restart-Buttons auf den SpielendeScreens und dem Scoreboard, um den GameScreen aufzurufen. Findet man alle Fehler, kann man über einen Button vom CongratsScreen das Scoreboard anschauen. Dazu haben wir onEvent - Befehle verwendet, bei denen der Screen über den setScreen - Befehl gewechselt wird.
+Mithilfe der Buttons kann man im Spiel von einem Screen zum nächsten gelangen. Dazu gibt es den Start-Button auf dem WelcomeScreen sowie die Restart-Buttons auf den SpielendeScreens und dem Scoreboard, um den GameScreen aufzurufen. Findet man alle Fehler, kann man über einen Button vom CongratsScreen das Scoreboard anschauen. Dazu haben wir onEvent - Befehle verwendet, bei denen der Screen über den setScreen - Befehl gewechselt wird. Wie im Bild zu sehen ist, wird bei jedem RestartButton die [Restartfunktion](#Restart) aufgerufen, die bereits weiter oben im Code definiert wurde und auch hier bereits erklärt wurde.
 
 ![RestartButtons](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Restartbuttons.PNG)
 
