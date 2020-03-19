@@ -42,6 +42,31 @@ Bei "Spotted!" gibt es insgesamt 5 Screens: Den WelcomeScreen, den man zu Beginn
 
 ## Funktionen<a name="Funktionen"></a>
 
+Um nicht immer wieder denselben Code schreiben zu müssen, haben wir ein paar kleine Funktionen geschrieben, um nur diese bei Bedarf aufrufen zu müssen. Dies sind die MistakeFound - und die Misclick - Funktion sowie die Endgame -, Restart - und Scoreboard - Funktion. 
+
+### MistakeFound
+
+
+
+
+### Misclick
+
+
+
+
+### Endgame
+
+
+
+
+### Restart
+
+
+
+
+### Scoreboard
+
+Diese Funktion erklären wir seperat bei "Das Scoreboard"(#Scoreboard).
 
 
 
