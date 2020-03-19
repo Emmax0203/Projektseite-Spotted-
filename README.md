@@ -18,4 +18,18 @@
 
 [8. Schlusswort](#Schlusswort)
 
-## Einleitung
+## Einleitung<a name="Einleitung"></a>
+
+## Spielidee<a name="Spielidee"></a>
+
+## Die einzelnen Screens<a name="Screens"></a>
+
+## Die Buttons<a name="Buttons"></a>
+
+## Das Suchbild<a name="Suchbild"></a>
+
+## Spielende<a name="Ende"></a>
+
+## Das Scoreboard<a name="Scoreboard"></a>
+
+## Schlusswort<a name="Schlusswort"></a>
