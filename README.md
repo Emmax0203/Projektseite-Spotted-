@@ -149,14 +149,22 @@ Oder der Spieler findet erfolgreich alle 9 Fehler, sodass das Spiel gewonnen ist
 
 ![Endgamefunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Endgamefunktion.PNG)
 
-Um die Spielenden vernünftig im Spiel integrieren zu können, haben wir die Endgamefunktion eingeführt. Sie besteht aus zwei if - Schleifen, die gleichzeitig prüfen, ob der Spieler den neunten Fehler gefunden oder sein letztes Leben verloren hat. Sollte eine der Möglichkeiten eintreten, beendet die Endgamefunktion auf die entsprechende Weise das Spiel.
+Um die Spielenden vernünftig im Spiel integrieren zu können, haben wir die Endgamefunktion eingeführt. Sie besteht aus zwei if - Schleifen, die gleichzeitig prüfen, ob der Spieler den neunten Fehler gefunden oder sein letztes Leben verloren hat. Sollte eine der Möglichkeiten eintreten, beendet die Endgamefunktion auf die entsprechende Weise das Spiel. 
+
+Um die Spielzeit zu messen, wurde ja bereits die Zeit mit dem Klick auf den StartButton gestartet. Nun, mit dem Klick auf den neunten Fehler, wird die Zeit gestoppt und die Differenz der beiden Zeitpunkte gebildet, um die Spielzeit zu erhalten. Um die Spielzeit nicht in Millisekunden, sondern in Sekunden zu erhalten, rechnen wir die Playtimevariable noch in Sekunden um mit Playtime/1000, um sie als Seconds angemessen ausgeben zu können.
 
 
 ## Das Scoreboard<a name="Scoreboard"></a>
 
-Diese Funktion ist schon wesentlich umfangreicher als die beiden vorangegangenen. Diese Funktion beendet das Spiel. Sie prüft, ob mit dem aktuellen Klick entweder der letzte Fehler gefunden wurde oder das letzte Leben abgezogen wurde. 
+Jedes gute Spiel hat ein Scoreboard. Und so haben auch wir uns dazu entschlossen, eines in unser Spiel einzubauen. Dies gestaltete sich jedoch schwieriger als erwartet. 
+Zunächst legten wir einen neuen Screen an, den HighscoreScreen. Im Anschluss haben wir uns Gedanken dazu gemacht, wie ein Scoreboard eigentlich funktioniert. Herausgekommen ist letzten Endes diese Funktion:
 
-Sollte der letzte Fehler gefunden worden
+![Scoreboard Funktion 1](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Scoreboardfunktion1.PNG)
+
+![Scoreboard Funktion 2](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Scoreboardfunktion1.PNG)
+
+
+
 
 
 ## Schlusswort<a name="Schlusswort"></a>
