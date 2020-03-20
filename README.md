@@ -163,10 +163,17 @@ Zunächst legten wir einen neuen Screen an, den HighscoreScreen. Im Anschluss ha
 
 ![Scoreboard Funktion 2](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Scoreboardfunktion2.PNG)
 
+#### Die Scoreboardfunktion
 
+Der erste Teil dieser Funktion behandelt die Ausgabe des Scoreboards auf dem ScoreboardScreen. Bei erfolgreichem Abschluss wird der Counter "Games" um 1 erhöht, um zu ermitteln, wie viele Spiele bereits erfolgreich abgeschlosssen wurden. Je nach Anzahl wird die entsprechende Anzahl Plätze auf dem Scoreboard angezeigt. Erst bei fünf Spielen werden alle fünf Plätze angezeigt. Dies hat einen Grund: Durch den Code werden teilweise Zeiten zweimal auf dem Scoreboard eingetragen, teilweise sogar in der falschen Reihenfolge. Doch durch die Reduzierung der angezeigten Plätze wird die Dopplung von wenigen Zeiten umgangen, da dieser zwar auf dem Scoreboard vorhanden sind, jedoch auf dem Screen nicht für den Spieler sichtbar sind. 
 
+Um jedoch nicht nur einfach eine Zeit nach der anderen chronologisch auf dem Scoreboard einzutragen, sondern auch die Reihenfolge nach Schnelligkeit zu ermitteln, prüft der zweite Teil der Scoreboardfunktion die Zahlenwerte der aktuellen Spielzeit im Vergleich mit den bereits eingetragenen Spielzeiten auf dem Scoreboard. Dazu haben wir einen Array verwendet, der fünf Plätze für die Top 5 hat. 
+Nun vergleicht die Funktion die Spielzeit mit den einzelnen Plätzen. Wenn eine Zeit zwischen zwei bereits eingetragenen Zeiten liegt, wird sie zwischen diese Zeiten eingeschoben und der Rest wird nach hinten raus um einen nach unten versetzt. Dadurch wird der Array natürlich länger als fünf Plätze. Durch die visuelle Ausgabe der ersten fünf sind die darunterliegenden Zeiten jedoch irrelevant. So kann der Array theoretisch ins Unendliche wachsen, das Scoreboard wird stets ausschließlich die Top 5 anzeigen.
+
+Zum ScoreboardScreen gelangt man über den ScoreboardButton auf dem CongratsScreen. Auf dem ScoreboardScreen befindet sich ein PlayAgainButton, mit welchem man das Spiel neu starten kann.
 
 
 ## Schlusswort<a name="Schlusswort"></a>
 
-
+Abschließend können wir stolz von uns behaupten, wieder ein für unsere Verhältnisse sehr tolles Spiel programmiert zu haben, da wir vor einem Dreivierteljahr keinerlei Kenntnisse hatten und uns alles selbst erarbeitet haben. Nachdem es mit GameLab alles super funktioniert hatte, lief auch mit AppLab alles wie am Schnürchen, wobei natürlich die Einarbeitung mithilfe des Tutorials von code.org wieder einmal auf Dauer etwas lästig war, aber ohne kommen wir eben nicht aus. 
+Wir sind zufrieden mit unserem Ergebnis und sind vor allem stolz auf unser funktionierendes Scoreboard, welches uns die meisten Nerven gekostet hat.
