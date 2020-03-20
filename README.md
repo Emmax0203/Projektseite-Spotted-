@@ -161,7 +161,7 @@ Zunächst legten wir einen neuen Screen an, den HighscoreScreen. Im Anschluss ha
 
 ![Scoreboard Funktion 1](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Scoreboardfunktion1.PNG)
 
-![Scoreboard Funktion 2](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Scoreboardfunktion1.PNG)
+![Scoreboard Funktion 2](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Scoreboardfunktion2.PNG)
 
 
 
