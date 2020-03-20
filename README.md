@@ -125,7 +125,7 @@ Zudem wird bei dem StartButton die Zeitmessung gestartet, um die Zeit mssen zu k
 
 ## Das Suchbild<a name="Suchbild"></a>
 
-Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU). Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir 9 Fehler im Bild haben, haben wir 9 Buttons mit den Namen F1 - F9 eingeführt. Jeder Button hat denselben Code, der beim Anklicken abgerufen wird. 
+Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU). Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir 9 Fehler im Bild haben, haben wir 9 Buttons mit den Namen F1 - F9 eingeführt. Jeder Button hat denselben Code, der beim Anklicken abgerufen wird. Beim Klicken wird jedes Mal mit der Endgame - Funktion geprüft, ob das Spiel zu Ende ist sowie die MistakeFound - Funktion abgerufen. 
 
 ![Suchbild mit sichtbaren Buttons](https://github.com/AntoniaJohannes/Stundenprotokoll-2/blob/master/Suchbild%20Fehler%20Markiert.PNG)
 
@@ -144,8 +144,12 @@ Damit man nicht immer auf denselben Fehler klicken kann, um auf 9 gefundene Fehl
 
 
 ## Spielende<a name="Ende"></a>
+Das Spiel endet in zwei verschiedenen Szenarien: Entweder der Spieler drückt zu oft daneben und verliert seine drei Leben. Dann erscheint der GameOverScreen und er kann es von Neuem versuchen.
+Oder der Spieler findet erfolgreich alle 9 Fehler, sodass das Spiel gewonnen ist. Dann erscheint der CongratsScreen mit der Möglichkeit, nachzuschauen, ob die eigene Zeit unter den Top 5 Bestzeiten liegt. Je nach Spielende wird ein entsprechender Sound abgespielt, um eine ansprechende Audioausgabe zu haben. 
 
+![Endgamefunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Endgamefunktion.PNG)
 
+Um die Spielenden vernünftig im Spiel integrieren zu können, haben wir die Endgamefunktion eingeführt. Sie besteht aus zwei if - Schleifen, die gleichzeitig prüfen, ob der Spieler den neunten Fehler gefunden oder sein letztes Leben verloren hat. Sollte eine der Möglichkeiten eintreten, beendet die Endgamefunktion auf die entsprechende Weise das Spiel.
 
 
 ## Das Scoreboard<a name="Scoreboard"></a>
