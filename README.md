@@ -138,6 +138,8 @@ Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/p
 
 Zudem ist das ganze untere Bild vom MisclickButton abgedeckt, sodass bei einem Misclick dieser Button getroffen wird. Dadurch kann das Spiel eindeutig feststellen, was angeklickt wird, ohne ein Leben abgezogen wird, wenn außerhalb des unteren Bilds geklickt wird. 
 
+![MisclickButton Code](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/MisclickButton.PNG)
+
 Damit man nicht immer auf denselben Fehler klicken kann, um auf 9 gefundene Fehler zu kommen, verschwinden die Buttons, die die Fehler markieren, nach dem Klicken. Dadurch sind sie nur für einmaliges Klicken verfügbar und jeder Fehler muss gefunden werden, um das Spiel erfolgreich abzuschließen. 
 
 
