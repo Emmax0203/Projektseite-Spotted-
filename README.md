@@ -33,7 +33,7 @@
 
 ## Einleitung<a name="Einleitung"></a>
 
-["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) ist eine App, welche wir im Rahmen des Informatikunterrichts des zweiten Halbjahres des 12. Jahrgangs programmiert haben. Wir haben dazu wieder die Plattform [code.org](https://studio.code.org/) verwendet, wobei wir diesmal AppLab zum Programmmieren benutzt haben, da dies wesentlich komplexer und fortgeschrittener als GameLab ist und dies zuedem auch die Anforderung an das neue Projekt war. Im Rahmen des Tutorials zu AppLab lernt man auch, ohne die Bausteine von [code.org](https://studio.code.org/) zu arbeiten und stattdessen eigenständig Codezeilen zu schreiben.
+["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) ist eine App, welche wir im Rahmen des Informatikunterrichts des zweiten Halbjahres des 12. Jahrgangs programmiert haben. Wir haben dazu wieder die Plattform [code.org](https://studio.code.org/) verwendet, wobei wir diesmal AppLab zum Programmmieren benutzt haben, da dies wesentlich komplexer und fortgeschrittener als GameLab ist und dies zudem auch die Anforderung an das neue Projekt war. Im Rahmen des Tutorials zu AppLab lernt man auch, ohne die Bausteine von [code.org](https://studio.code.org/) zu arbeiten und stattdessen eigenständig Codezeilen zu schreiben.
 
 Als wir das Tutorial weitestgehend beendet hatten, haben wir uns wieder dazu entschlossen, ein Spiel zu programmieren, da wir bereits gute Erfahrungen damit gemacht hatten. Im Folgenden werden aus Übersichtsgründen teilweise nur einzelne Codeauszüge gezeigt, wenn ganze Abschnitte diesem entsprechen. Dann ist davon auszugehen, dass der folgende Code genauso aussieht und funktioniert.
 
