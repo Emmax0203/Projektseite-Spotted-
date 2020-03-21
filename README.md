@@ -18,7 +18,7 @@
 
 [4.4. Restart](#Restart)
 
-[4.5. Scoreboard](#4)
+[4.5. Scoreboardfunktion](#4)
 
 [5. Die Buttons](#Buttons)
 
