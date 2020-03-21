@@ -76,18 +76,18 @@ Bei ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKa
 
 ## Funktionen<a name="Funktionen"></a>
 
-Um nicht immer wieder denselben Code schreiben zu müssen, haben wir ein paar kleine Funktionen geschrieben, um nur diese bei Bedarf aufrufen zu müssen. Dies sind die MistakeFound - und die Misclick - Funktion sowie die Endgame -, Restart - und Scoreboard - Funktion. 
+Um nicht immer wieder denselben Code schreiben zu müssen, haben wir ein paar kleine Funktionen geschrieben, um nur diese bei Bedarf aufrufen zu müssen. Dies sind die [MistakeFound](#MistakeFound) - und die [Misclick - Funktion](#Misclick) sowie die [Endgame](#Endgame) -, [Restart](#Restart) - und [Scoreboard - Funktion](#Scoreboard). 
 
 ### MistakeFound<a name="MistakeFound"></a>
 
-Die MistakeFound - Funktion beschränkt sich auf wenige Zeilen Code. Sie erhöht lediglich den Spotted - Counter um 1, um so den Überblick zu behalten, spielt einen Sound zur Bestätigung ab und ändert den Text über dem Suchbild, sodass man jederzeit nachschauen kann, wie viele Fehler man gefunden hat und wie viele noch fehlen.
+Die [MistakeFound - Funktion](#MistakeFound) beschränkt sich auf wenige Zeilen Code. Sie erhöht lediglich den Spotted - Counter um 1, um so den Überblick zu behalten, spielt einen Sound zur Bestätigung ab und ändert den Text über dem [Suchbild](#Suchbild), sodass man jederzeit nachschauen kann, wie viele Fehler man gefunden hat und wie viele noch fehlen.
 
 ![Spottedfunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Spottedfunktion.PNG)
 
 
 ### Misclick<a name="Misclick"></a>
 
-Auch die Misclick - Funktion ist kurz gehalten. Innerhalb dieser Funktion wird dem Spieler wegen des Misclicks ein Leben abgezogen, der entsprechende Sound zur akustischen Bestätigung ausgegeben und der Text über dem Spielfeld geändert, sodass man stets weiß, wie viele Fehler man sich noch erlauben kann. Die Spielmechanik der Leben bzw. des Misclicks haben wir eingeführt, um zu verhindern, dass der Spieler einfach wahllos auf dem Suchbild herumklickt und so durch Zufall Fehler findet, sondern stattdessen wirklich sucht und nur klickt, wenn er sich sicher ist, dass er einen Fehler gefunden hat. 
+Auch die [Misclick - Funktion](#Misclick) ist kurz gehalten. Innerhalb dieser Funktion wird dem Spieler wegen des Misclicks ein Leben abgezogen, der entsprechende Sound zur akustischen Bestätigung ausgegeben und der Text über dem Spielfeld geändert, sodass man stets weiß, wie viele Fehler man sich noch erlauben kann. Die Spielmechanik der Leben bzw. des Misclicks haben wir eingeführt, um zu verhindern, dass der Spieler einfach wahllos auf dem Suchbild herumklickt und so durch Zufall Fehler findet, sondern stattdessen wirklich sucht und nur klickt, wenn er sich sicher ist, dass er einen Fehler gefunden hat. 
 
 ![Misclickfunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Misclickfunktion.PNG)
 
@@ -99,7 +99,7 @@ Diese Funktion wird unter ["Spielende"](#Spielende) erklärt.
 
 ### Restart<a name="Restart"></a>
 
-Nachdem das Spiel beendet ist, kann man natürlich das Spiel ein weiteres Mal spielen. Dazu müssen alle Buttons erneut auf dem [Spielfeld](#Suchbild) erscheinen, der genaue Grund wird bei ["Das Suchbild"](#Suchbild) ausgeführt. Zudem müssen sowohl der Lives - Counter als auch der 
+Nachdem das Spiel beendet ist, kann man natürlich das Spiel ein weiteres Mal spielen. Dazu müssen alle [Buttons](#Buttons) erneut auf dem [Spielfeld](#Suchbild) erscheinen, der genaue Grund wird bei ["Das Suchbild"](#Suchbild) ausgeführt. Zudem müssen sowohl der Lives - Counter als auch der 
 Spotted - Counter zurückgesetzt werden. Desweiteren muss natürlich auch die Zeit von Neuem gemessen werden und die Texte, die die Anzahl verbleibender Fehler und Leben anzeigt, aktualisiert werden.
 
 ![Restartfunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Restartfunktion.PNG)
