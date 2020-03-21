@@ -99,7 +99,7 @@ Diese Funktion wird unter ["Spielende"](#Spielende) erklärt.
 
 ### Restart<a name="Restart"></a>
 
-Nachdem das Spiel beendet ist, kann man natürlich das Spiel ein weiteres Mal spielen. Dazu müssen alle Buttons erneut auf dem Spielfeld erscheinen, der genaue Grund wird bei "Das Suchbild"(#Suchbild) ausgeführt. Zudem müssen sowohl der Lives - Counter als auch der 
+Nachdem das Spiel beendet ist, kann man natürlich das Spiel ein weiteres Mal spielen. Dazu müssen alle Buttons erneut auf dem [Spielfeld](#Suchbild) erscheinen, der genaue Grund wird bei ["Das Suchbild"](#Suchbild) ausgeführt. Zudem müssen sowohl der Lives - Counter als auch der 
 Spotted - Counter zurückgesetzt werden. Desweiteren muss natürlich auch die Zeit von Neuem gemessen werden und die Texte, die die Anzahl verbleibender Fehler und Leben anzeigt, aktualisiert werden.
 
 ![Restartfunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Restartfunktion.PNG)
@@ -114,7 +114,7 @@ Diese Funktion erklären wir seperat bei ["Das Scoreboard"](#Scoreboard).
 ## Die Buttons<a name="Buttons"></a>
 
 
-Mithilfe der Buttons kann man im Spiel von einem Screen zum nächsten gelangen. Dazu gibt es den Start-Button auf dem WelcomeScreen sowie die Restart-Buttons auf den SpielendeScreens und dem Scoreboard, um den GameScreen aufzurufen. Findet man alle Fehler, kann man über einen Button vom CongratsScreen das Scoreboard anschauen. Dazu haben wir onEvent - Befehle verwendet, bei denen der Screen über den setScreen - Befehl gewechselt wird. Wie im Bild zu sehen ist, wird bei jedem RestartButton die [Restartfunktion](#Restart) aufgerufen, die bereits weiter oben im Code definiert wurde und auch hier bereits erklärt wurde.
+Mithilfe der [Buttons](#Buttons) kann man im Spiel von einem [Screen](#Screens) zum nächsten gelangen. Dazu gibt es den Start-Button auf dem WelcomeScreen sowie die Restart-Buttons auf den SpielendeScreens und dem [Scoreboard](#Scoreboard), um den GameScreen aufzurufen. Findet man alle Fehler, kann man über einen [Button](#Buttons) vom CongratsScreen das [Scoreboard](#Scoreboard) anschauen. Dazu haben wir onEvent - Befehle verwendet, bei denen der Screen über den setScreen - Befehl gewechselt wird. Wie im Bild zu sehen ist, wird bei jedem RestartButton die [Restartfunktion](#Restart) aufgerufen, die bereits weiter oben im Code definiert wurde und auch hier bereits erklärt wurde.
 
 ![RestartButtons](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Restartbuttons.PNG)
 
@@ -125,7 +125,7 @@ Zudem wird bei dem StartButton die Zeitmessung gestartet, um die Zeit messen zu 
 
 ## Das Suchbild<a name="Suchbild"></a>
 
-Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU). Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir neun Fehler im Bild haben, haben wir neun Buttons mit den Namen F1 - F9 eingeführt. Jeder Button hat denselben Code, der beim Anklicken abgerufen wird. Beim Klicken wird jedes Mal mit der Endgame - Funktion geprüft, ob das Spiel zu Ende ist sowie die MistakeFound - Funktion abgerufen. 
+Das [Suchbild](#Suchbild) ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU). Das [Suchbild](#Suchbild) haben wir [aus dem Internet](https://www.google.com/search?q=finde+den+fehler+suchbild&rlz=1C1CHBF_deDE884DE884&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiVvKX24KvoAhXJ0KQKHXM2DqMQ_AUoAXoECAwQAw&biw=1920&bih=969#imgrc=6Nwu1fCRoTiWoM) importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit [Buttons](#Buttons) markiert, sodass sie vollständig von [Buttons](#Buttons) bedeckt sind. Dadurch kann ein Fehler bei Anklicken des [Buttons](#Buttons) gefunden werden. Da wir neun Fehler im Bild haben, haben wir neun [Buttons](#Buttons) mit den Namen F1 - F9 eingeführt. Jeder [Button](#Buttons) hat denselben Code, der beim Anklicken abgerufen wird. Beim Klicken wird jedes Mal mit der [Endgame - Funktion](#Endgame) geprüft, ob das Spiel zu Ende ist sowie die [MistakeFound - Funktion](MistakeFound) abgerufen. 
 
 ![Suchbild mit sichtbaren Buttons](https://github.com/AntoniaJohannes/Stundenprotokoll-2/blob/master/Suchbild%20Fehler%20Markiert.PNG)
 
@@ -136,11 +136,11 @@ Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/p
 #### Code für die FehlerButtons, exemplarisch F1
 
 
-Zudem ist das ganze untere Bild vom MisclickButton abgedeckt, sodass bei einem Misclick dieser Button getroffen wird. Dadurch kann das Spiel eindeutig feststellen, was angeklickt wird, ohne dass ein Leben abgezogen wird, wenn außerhalb des unteren Bilds geklickt wird. 
+Zudem ist das ganze untere Bild vom MisclickButton abgedeckt, sodass bei einem Misclick dieser [Button](#Buttons) getroffen wird. Dadurch kann das Spiel eindeutig feststellen, was angeklickt wird, ohne dass ein Leben abgezogen wird, wenn außerhalb des unteren Bilds geklickt wird. 
 
 ![MisclickButton Code](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/MisclickButton.PNG)
 
-Damit man nicht immer auf denselben Fehler klicken kann, um auf neun gefundene Fehler zu kommen, verschwinden die Buttons, die die Fehler markieren, nach dem Klicken. Dadurch sind sie nur für einmaliges Klicken verfügbar und jeder Fehler muss gefunden werden, um das Spiel erfolgreich abzuschließen. 
+Damit man nicht immer auf denselben Fehler klicken kann, um auf neun gefundene Fehler zu kommen, verschwinden die [Buttons](#Buttons), die die Fehler markieren, nach dem Klicken. Dadurch sind sie nur für einmaliges Klicken verfügbar und jeder Fehler muss gefunden werden, um das Spiel erfolgreich abzuschließen. 
 
 
 ## Spielende<a name="Ende"></a>
@@ -149,16 +149,16 @@ Oder der Spieler findet erfolgreich alle neun Fehler, sodass das Spiel gewonnen 
 
 ![Endgamefunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Endgamefunktion.PNG)
 
-Um die Spielenden vernünftig im Spiel integrieren zu können, haben wir die Endgamefunktion eingeführt. Sie besteht aus zwei 
-if - Schleifen, die gleichzeitig prüfen, ob der Spieler den neunten Fehler gefunden oder sein letztes Leben verloren hat. Sollte eine der Möglichkeiten eintreten, beendet die Endgamefunktion auf die entsprechende Weise das Spiel. 
+Um die Spielenden vernünftig im Spiel integrieren zu können, haben wir die [Endgamefunktion](#Endgame) eingeführt. Sie besteht aus zwei 
+if - Schleifen, die gleichzeitig prüfen, ob der Spieler den neunten Fehler gefunden oder sein letztes Leben verloren hat. Sollte eine der Möglichkeiten eintreten, beendet die [Endgamefunktion](#Endgame) auf die entsprechende Weise das Spiel. 
 
 Um die Spielzeit zu messen, wurde ja bereits die Zeit mit dem Klick auf den StartButton gestartet. Nun, mit dem Klick auf den neunten Fehler, wird die Zeit gestoppt und die Differenz der beiden Zeitpunkte gebildet, um die Spielzeit zu erhalten. Um die Spielzeit nicht in Millisekunden, sondern in Sekunden zu erhalten, rechnen wir die Playtimevariable noch in Sekunden um mit Playtime/1000, um sie als Seconds angemessen ausgeben zu können.
 
 
 ## Das Scoreboard<a name="Scoreboard"></a>
 
-Jedes gute Spiel hat ein Scoreboard. Und so haben auch wir uns dazu entschlossen, eines in unser Spiel einzubauen. Dies gestaltete sich jedoch schwieriger als erwartet. 
-Zunächst legten wir einen neuen Screen an, den HighscoreScreen. Im Anschluss haben wir uns Gedanken dazu gemacht, wie ein Scoreboard eigentlich funktioniert. Herausgekommen ist letzten Endes diese Funktion:
+Jedes gute Spiel hat ein [Scoreboard](#Scoreboard). Und so haben auch wir uns dazu entschlossen, eines in unser Spiel einzubauen. Dies gestaltete sich jedoch schwieriger als erwartet. 
+Zunächst legten wir einen neuen [Screen](#Screens) an, den HighscoreScreen. Im Anschluss haben wir uns Gedanken dazu gemacht, wie ein [Scoreboard](#Scoreboard) eigentlich funktioniert. Herausgekommen ist letzten Endes diese Funktion:
 
 ![Scoreboard Funktion 1](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Scoreboardfunktion1.PNG)
 
@@ -166,15 +166,15 @@ Zunächst legten wir einen neuen Screen an, den HighscoreScreen. Im Anschluss ha
 
 #### Die Scoreboardfunktion
 
-Der erste Teil dieser Funktion behandelt die Ausgabe des Scoreboards auf dem ScoreboardScreen. Bei erfolgreichem Abschluss wird der Counter "Games" um 1 erhöht, um zu ermitteln, wie viele Spiele bereits erfolgreich abgeschlosssen wurden. Je nach Anzahl wird die entsprechende Anzahl Plätze auf dem Scoreboard angezeigt. Erst bei fünf Spielen werden alle fünf Plätze angezeigt. Dies hat einen Grund: Durch den Code werden teilweise Zeiten zweimal auf dem Scoreboard eingetragen, teilweise sogar in der falschen Reihenfolge. Doch durch die Reduzierung der angezeigten Plätze wird die Dopplung von wenigen Zeiten umgangen, da dieser zwar auf dem Scoreboard vorhanden sind, jedoch auf dem Screen nicht für den Spieler sichtbar sind. 
+Der erste Teil dieser Funktion behandelt die Ausgabe des [Scoreboards](#Scoreboard) auf dem ScoreboardScreen. Bei erfolgreichem Abschluss wird der Counter "Games" um 1 erhöht, um zu ermitteln, wie viele Spiele bereits erfolgreich abgeschlossen wurden. Je nach Anzahl wird die entsprechende Anzahl Plätze auf dem [Scoreboard](#Scoreboard) angezeigt. Erst bei fünf Spielen werden alle fünf Plätze angezeigt. Dies hat einen Grund: Durch den Code werden teilweise Zeiten zweimal auf dem [Scoreboard](#Scoreboard) eingetragen, teilweise sogar in der falschen Reihenfolge. Doch durch die Reduzierung der angezeigten Plätze wird die Dopplung von wenigen Zeiten umgangen, da dieser zwar auf dem [Scoreboard](#Scoreboard) vorhanden sind, jedoch auf dem Screen nicht für den Spieler sichtbar sind. 
 
-Um jedoch nicht nur einfach eine Zeit nach der anderen chronologisch auf dem Scoreboard einzutragen, sondern auch die Reihenfolge nach Schnelligkeit zu ermitteln, prüft der zweite Teil der Scoreboardfunktion die Zahlenwerte der aktuellen Spielzeit im Vergleich mit den bereits eingetragenen Spielzeiten auf dem Scoreboard. Dazu haben wir einen Array verwendet, der fünf Plätze für die Top 5 hat. 
-Nun vergleicht die Funktion die Spielzeit mit den einzelnen Plätzen. Wenn eine Zeit zwischen zwei bereits eingetragenen Zeiten liegt, wird sie zwischen diese Zeiten eingeschoben und der Rest wird nach hinten raus um einen nach unten versetzt. Dadurch wird der Array natürlich länger als fünf Plätze. Durch die visuelle Ausgabe der ersten fünf sind die darunterliegenden Zeiten jedoch irrelevant. So kann der Array theoretisch ins Unendliche wachsen, das Scoreboard wird stets ausschließlich die Top 5 anzeigen.
+Um jedoch nicht nur einfach eine Zeit nach der anderen chronologisch auf dem [Scoreboard](#Scoreboard) einzutragen, sondern auch die Reihenfolge nach Schnelligkeit zu ermitteln, prüft der zweite Teil der Scoreboardfunktion die Zahlenwerte der aktuellen Spielzeit im Vergleich mit den bereits eingetragenen Spielzeiten auf dem [Scoreboard](#Scoreboard). Dazu haben wir einen Array verwendet, der fünf Plätze für die Top 5 hat. 
+Nun vergleicht die Funktion die Spielzeit mit den einzelnen Plätzen. Wenn eine Zeit zwischen zwei bereits eingetragenen Zeiten liegt, wird sie zwischen diese Zeiten eingeschoben und der Rest wird nach hinten raus um einen nach unten versetzt. Dadurch wird der Array natürlich länger als fünf Plätze. Durch die visuelle Ausgabe der ersten fünf sind die darunterliegenden Zeiten jedoch irrelevant. So kann der Array theoretisch ins Unendliche wachsen, das [Scoreboard](#Scoreboard) wird stets ausschließlich die Top 5 anzeigen.
 
 Zum ScoreboardScreen gelangt man über den ScoreboardButton auf dem CongratsScreen. Auf dem ScoreboardScreen befindet sich ein PlayAgainButton, mit welchem man das Spiel neu starten kann.
 
 
 ## Schlusswort<a name="Schlusswort"></a>
 
-Abschließend können wir ein wenig stolz von uns behaupten, wieder ein für unsere Verhältnisse sehr tolles Spiel programmiert zu haben, da wir vor einem Dreivierteljahr keinerlei Kenntnisse hatten und uns alles selbst erarbeitet haben. Nachdem es mit GameLab alles super funktioniert hatte, lief auch mit AppLab alles wie am Schnürchen, wobei natürlich die Einarbeitung mithilfe des Tutorials von code.org wieder einmal auf Dauer etwas lästig war, aber ohne kommen wir eben nicht aus. 
+Abschließend können wir ein wenig stolz von uns behaupten, mit ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) wieder ein für unsere Verhältnisse sehr tolles Spiel programmiert zu haben, da wir vor einem Dreivierteljahr keinerlei Kenntnisse hatten und uns alles selbst erarbeitet haben. Nachdem es mit GameLab alles super funktioniert hatte, lief auch mit AppLab alles wie am Schnürchen, wobei natürlich die Einarbeitung mithilfe des Tutorials von code.org wieder einmal auf Dauer etwas lästig war, aber ohne kommen wir eben nicht aus. 
 Wir sind zufrieden mit unserem Ergebnis, vor allem mit unserem funktionierenden Scoreboard, welches uns die meisten Nerven gekostet hat.
