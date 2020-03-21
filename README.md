@@ -18,7 +18,7 @@
 
 [4.4. Restart](#Restart)
 
-[4.5. Scoreboard](#Scoreboardfunktion)
+[4.5. Scoreboard](#4)
 
 [5. Die Buttons](#Buttons)
 
@@ -40,14 +40,14 @@ Als wir das Tutorial weitestgehend beendet hatten, haben wir uns wieder dazu ent
 
 ## Spielidee<a name="Spielidee"></a>
 
-["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) beinhaltet ein simples Suchbild mit neun Fehlern. Im oberen Teil sieht man das Original, während im unteren Teil Details fehlen. Mithilfe der Maus kann man auf die Fehler im unteren Bild klicken, um diese zu spotten. Findet man alle neun Fehler, hat man das Spiel erfolgreich abgeschlossen und landet unter Umständen mit neuer Bestzeit auf dem Scoreboard, klickt man jedoch zu häufig daneben, verliert man das Spiel und kann es von Neuem versuchen. In diesem Fall wird jedoch keine Zeit gemessen.
+["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) beinhaltet ein simples Suchbild mit neun Fehlern. Im oberen Teil sieht man das Original, während im unteren Teil Details fehlen. Mithilfe der Maus kann man auf die Fehler im unteren Bild klicken, um diese zu spotten. Findet man alle neun Fehler, hat man das Spiel erfolgreich abgeschlossen und landet unter Umständen mit neuer Bestzeit auf dem [Scoreboard](#Scoreboard), klickt man jedoch zu häufig daneben, verliert man das Spiel und kann es von Neuem versuchen. In diesem Fall wird jedoch keine Zeit gemessen.
 
 
 ## Die einzelnen Screens<a name="Screens"></a>
 
-Um die Übersicht zu wahren, haben wir viel Gebrauch von der neuen Funktion von AppLab gegenüber GameLab gemacht: Screens. Man kann verschiedene Screens anlegen und so einzelne Bestandteile der App gut strukturieren und gliedern. Durch simple Verknüpfungen über Buttons gelangt man von einem Screen zum nächsten. 
+Um die Übersicht zu wahren, haben wir viel Gebrauch von der neuen Funktion von AppLab gegenüber GameLab gemacht: [Screens](#Screens). Man kann verschiedene [Screens](#Screens) anlegen und so einzelne Bestandteile der App gut strukturieren und gliedern. Durch simple Verknüpfungen über [Buttons](#Buttons) gelangt man von einem [Screen](#Screens) zum nächsten. 
 
-Bei ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) gibt es insgesamt 5 Screens: Den WelcomeScreen, den man zu Beginn sieht, den GameScreen, auf welchem sich das Spiel befindet, und schließlich die beiden Enden des Spiels als GameOverScreen und CongratsScreen. Um den Ehrgeiz der Spieler zu wecken, haben wir zudem ein Scoreboard programmiert, welches auf dem ScoreboardScreen zu sehen ist. 
+Bei ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) gibt es insgesamt fünf [Screens](#Screens): Den WelcomeScreen, den man zu Beginn sieht, den GameScreen, auf welchem sich das Spiel befindet, und schließlich die beiden Enden des Spiels als GameOverScreen und CongratsScreen. Um den Ehrgeiz der Spieler zu wecken, haben wir zudem ein [Scoreboard](#Scoreboard) programmiert, welches auf dem ScoreboardScreen zu sehen ist. 
 
 ![WelcomeScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/WelcomeScreen.PNG)
 
@@ -105,7 +105,7 @@ Spotted - Counter zurückgesetzt werden. Desweiteren muss natürlich auch die Ze
 ![Restartfunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Restartfunktion.PNG)
 
 
-### Scoreboard<a name="Scoreboardfunktion"></a>
+### Scoreboard<a name="4"></a>
 
 Diese Funktion erklären wir seperat bei ["Das Scoreboard"](#Scoreboard).
 
