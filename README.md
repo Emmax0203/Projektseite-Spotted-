@@ -2,52 +2,52 @@
 
 ## Inhaltsverzeichnis
 
-[ Einleitung](#Einleitung)
+[1. Einleitung](#Einleitung)
 
-[ Spielidee](#Spielidee)
+[2. Spielidee](#Spielidee)
 
-[ Die einzelnen Screens](#Screens)
+[3. Die einzelnen Screens](#Screens)
 
-[ Funktionen](#Funktionen)
+[4. Funktionen](#Funktionen)
 
-[ MistakeFound](#MistakeFound)
+[4.1. MistakeFound](#MistakeFound)
 
-[ Misclick](#Misclick)
+[4.2. Misclick](#Misclick)
 
-[ Endgame](#Endgame)
+[4.3. Endgame](#Endgame)
 
-[ Restart](#Restart)
+[4.4. Restart](#Restart)
 
-[ Scoreboard](#Scoreboardfunktion)
+[4.5. Scoreboard](#Scoreboardfunktion)
 
-[ Die Buttons](#Buttons)
+[5. Die Buttons](#Buttons)
 
-[ Das Suchbild](#Suchbild)
+[6. Das Suchbild](#Suchbild)
 
-[ Spielende](#Ende)
+[7. Spielende](#Ende)
 
-[ Das Scoreboard](#Scoreboard)
+[8. Das Scoreboard](#Scoreboard)
 
-[ Schlusswort](#Schlusswort)
+[9. Schlusswort](#Schlusswort)
 
 
 ## Einleitung<a name="Einleitung"></a>
 
-["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) ist eine App, welche wir im Rahmen des Informatikunterrichts des zweiten Halbjahres des 12. Jahrgangs programmiert haben. Wir haben dazu wieder die Plattform [code.org](https://studio.code.org/) verwendet, wobei wir diesmal AppLab benutzt haben, da dies wesentlich komplexer und fortgeschrittener als GameLab ist und auch die Anforderung an das neue Projekt war. Im Rahmen des Tutorials zu AppLab lernt man, ohne die Bausteine von [code.org](https://studio.code.org/) zu arbeiten und stattdessen eigenständig Code zu schreiben.
+["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) ist eine App, welche wir im Rahmen des Informatikunterrichts des zweiten Halbjahres des 12. Jahrgangs programmiert haben. Wir haben dazu wieder die Plattform [code.org](https://studio.code.org/) verwendet, wobei wir diesmal AppLab zum Programmmieren benutzt haben, da dies wesentlich komplexer und fortgeschrittener als GameLab ist und dies zuedem auch die Anforderung an das neue Projekt war. Im Rahmen des Tutorials zu AppLab lernt man auch, ohne die Bausteine von [code.org](https://studio.code.org/) zu arbeiten und stattdessen eigenständig Codezeilen zu schreiben.
 
 Als wir das Tutorial weitestgehend beendet hatten, haben wir uns wieder dazu entschlossen, ein Spiel zu programmieren, da wir bereits gute Erfahrungen damit gemacht hatten. Im Folgenden werden aus Übersichtsgründen teilweise nur einzelne Codeauszüge gezeigt, wenn ganze Abschnitte diesem entsprechen. Dann ist davon auszugehen, dass der folgende Code genauso aussieht und funktioniert.
 
 
 ## Spielidee<a name="Spielidee"></a>
 
-["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) beinhaltet ein simples Suchbild mit 9 Fehlern. Im oberen Teil sieht man das Original, während im unteren Teil Details fehlen. Mithilfe der Maus kann man auf die Fehler im unteren Bild klicken, um diese zu spotten. Findet man alle 9 Fehler, hat man das Spiel erfolgreich abgeschlossen und landet unter Umständen mit neuer Bestzeit auf dem Scoreboard, klickt man jedoch zu häufig daneben, verliert man das Spiel und kann es von Neuem versuchen. In diesem Fall wird jedoch keine Zeit gemessen.
+["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) beinhaltet ein simples Suchbild mit neun Fehlern. Im oberen Teil sieht man das Original, während im unteren Teil Details fehlen. Mithilfe der Maus kann man auf die Fehler im unteren Bild klicken, um diese zu spotten. Findet man alle neun Fehler, hat man das Spiel erfolgreich abgeschlossen und landet unter Umständen mit neuer Bestzeit auf dem Scoreboard, klickt man jedoch zu häufig daneben, verliert man das Spiel und kann es von Neuem versuchen. In diesem Fall wird jedoch keine Zeit gemessen.
 
 
 ## Die einzelnen Screens<a name="Screens"></a>
 
 Um die Übersicht zu wahren, haben wir viel Gebrauch von der neuen Funktion von AppLab gegenüber GameLab gemacht: Screens. Man kann verschiedene Screens anlegen und so einzelne Bestandteile der App gut strukturieren und gliedern. Durch simple Verknüpfungen über Buttons gelangt man von einem Screen zum nächsten. 
 
-Bei ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) gibt es insgesamt 5 Screens: Den WelcomeScreen, den man zu Beginn sieht, den GameScreen, auf welchem sich das Spiel befindet, und schließlich die beiden Enden des Spiels als GameOverScreen und CongratsScreen. Um den Ehrgeiz der Spieler zu wecken, habem wir zudem ein Scoreboard programmiert, welches auf dem ScoreboardScreen zu sehen. 
+Bei ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU) gibt es insgesamt 5 Screens: Den WelcomeScreen, den man zu Beginn sieht, den GameScreen, auf welchem sich das Spiel befindet, und schließlich die beiden Enden des Spiels als GameOverScreen und CongratsScreen. Um den Ehrgeiz der Spieler zu wecken, haben wir zudem ein Scoreboard programmiert, welches auf dem ScoreboardScreen zu sehen ist. 
 
 ![WelcomeScreen](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/WelcomeScreen.PNG)
 
@@ -120,12 +120,12 @@ Mithilfe der Buttons kann man im Spiel von einem Screen zum nächsten gelangen. 
 
 Die Ausnahme bildet der ScoreboardButton, da dieser noch initiiert, dass die Top 5 der schnellsten Sucher in der richtigen Reihenfolge angezeigt werden. Details dazu unter ["Das Scoreboard"](#Scoreboard).
 
-Zudem wird bei dem StartButton die Zeitmessung gestartet, um die Zeit mssen zu können, die zum Finden aller Fehler gebraucht wird.
+Zudem wird bei dem StartButton die Zeitmessung gestartet, um die Zeit messen zu können, die zum Finden aller Fehler gebraucht wird.
 
 
 ## Das Suchbild<a name="Suchbild"></a>
 
-Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU). Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir 9 Fehler im Bild haben, haben wir 9 Buttons mit den Namen F1 - F9 eingeführt. Jeder Button hat denselben Code, der beim Anklicken abgerufen wird. Beim Klicken wird jedes Mal mit der Endgame - Funktion geprüft, ob das Spiel zu Ende ist sowie die MistakeFound - Funktion abgerufen. 
+Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/projects/applab/QcTGX701NMCFbWlbQdbyFKavp3incRN2BAAxgA9jyGU). Das Suchbild haben wir aus dem Internet importiert und zunächst selbst alle Fehler gesucht. Anschließend haben wir die Fehler mit Buttons markiert, sodass sie vollständig von Buttons bedeckt sind. Dadurch kann ein Fehler bei Anklicken des Buttons gefunden werden. Da wir neun Fehler im Bild haben, haben wir neun Buttons mit den Namen F1 - F9 eingeführt. Jeder Button hat denselben Code, der beim Anklicken abgerufen wird. Beim Klicken wird jedes Mal mit der Endgame - Funktion geprüft, ob das Spiel zu Ende ist sowie die MistakeFound - Funktion abgerufen. 
 
 ![Suchbild mit sichtbaren Buttons](https://github.com/AntoniaJohannes/Stundenprotokoll-2/blob/master/Suchbild%20Fehler%20Markiert.PNG)
 
@@ -136,20 +136,21 @@ Das Suchbild ist der Hauptbestandteil von ["Spotted!"](https://studio.code.org/p
 #### Code für die FehlerButtons, exemplarisch F1
 
 
-Zudem ist das ganze untere Bild vom MisclickButton abgedeckt, sodass bei einem Misclick dieser Button getroffen wird. Dadurch kann das Spiel eindeutig feststellen, was angeklickt wird, ohne ein Leben abgezogen wird, wenn außerhalb des unteren Bilds geklickt wird. 
+Zudem ist das ganze untere Bild vom MisclickButton abgedeckt, sodass bei einem Misclick dieser Button getroffen wird. Dadurch kann das Spiel eindeutig feststellen, was angeklickt wird, ohne dass ein Leben abgezogen wird, wenn außerhalb des unteren Bilds geklickt wird. 
 
 ![MisclickButton Code](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/MisclickButton.PNG)
 
-Damit man nicht immer auf denselben Fehler klicken kann, um auf 9 gefundene Fehler zu kommen, verschwinden die Buttons, die die Fehler markieren, nach dem Klicken. Dadurch sind sie nur für einmaliges Klicken verfügbar und jeder Fehler muss gefunden werden, um das Spiel erfolgreich abzuschließen. 
+Damit man nicht immer auf denselben Fehler klicken kann, um auf neun gefundene Fehler zu kommen, verschwinden die Buttons, die die Fehler markieren, nach dem Klicken. Dadurch sind sie nur für einmaliges Klicken verfügbar und jeder Fehler muss gefunden werden, um das Spiel erfolgreich abzuschließen. 
 
 
 ## Spielende<a name="Ende"></a>
 Das Spiel endet in zwei verschiedenen Szenarien: Entweder der Spieler drückt zu oft daneben und verliert seine drei Leben. Dann erscheint der GameOverScreen und er kann es von Neuem versuchen.
-Oder der Spieler findet erfolgreich alle 9 Fehler, sodass das Spiel gewonnen ist. Dann erscheint der CongratsScreen mit der Möglichkeit, nachzuschauen, ob die eigene Zeit unter den Top 5 Bestzeiten liegt. Je nach Spielende wird ein entsprechender Sound abgespielt, um eine ansprechende Audioausgabe zu haben. 
+Oder der Spieler findet erfolgreich alle neun Fehler, sodass das Spiel gewonnen ist. Dann erscheint der CongratsScreen mit der Möglichkeit, nachzuschauen, ob die eigene Zeit unter den Top 5 Bestzeiten liegt. Je nach Spielende wird ein entsprechender Sound abgespielt, um eine ansprechende Audioausgabe zu haben. 
 
 ![Endgamefunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Endgamefunktion.PNG)
 
-Um die Spielenden vernünftig im Spiel integrieren zu können, haben wir die Endgamefunktion eingeführt. Sie besteht aus zwei if - Schleifen, die gleichzeitig prüfen, ob der Spieler den neunten Fehler gefunden oder sein letztes Leben verloren hat. Sollte eine der Möglichkeiten eintreten, beendet die Endgamefunktion auf die entsprechende Weise das Spiel. 
+Um die Spielenden vernünftig im Spiel integrieren zu können, haben wir die Endgamefunktion eingeführt. Sie besteht aus zwei 
+if - Schleifen, die gleichzeitig prüfen, ob der Spieler den neunten Fehler gefunden oder sein letztes Leben verloren hat. Sollte eine der Möglichkeiten eintreten, beendet die Endgamefunktion auf die entsprechende Weise das Spiel. 
 
 Um die Spielzeit zu messen, wurde ja bereits die Zeit mit dem Klick auf den StartButton gestartet. Nun, mit dem Klick auf den neunten Fehler, wird die Zeit gestoppt und die Differenz der beiden Zeitpunkte gebildet, um die Spielzeit zu erhalten. Um die Spielzeit nicht in Millisekunden, sondern in Sekunden zu erhalten, rechnen wir die Playtimevariable noch in Sekunden um mit Playtime/1000, um sie als Seconds angemessen ausgeben zu können.
 
@@ -175,5 +176,5 @@ Zum ScoreboardScreen gelangt man über den ScoreboardButton auf dem CongratsScre
 
 ## Schlusswort<a name="Schlusswort"></a>
 
-Abschließend können wir stolz von uns behaupten, wieder ein für unsere Verhältnisse sehr tolles Spiel programmiert zu haben, da wir vor einem Dreivierteljahr keinerlei Kenntnisse hatten und uns alles selbst erarbeitet haben. Nachdem es mit GameLab alles super funktioniert hatte, lief auch mit AppLab alles wie am Schnürchen, wobei natürlich die Einarbeitung mithilfe des Tutorials von code.org wieder einmal auf Dauer etwas lästig war, aber ohne kommen wir eben nicht aus. 
-Wir sind zufrieden mit unserem Ergebnis und sind vor allem stolz auf unser funktionierendes Scoreboard, welches uns die meisten Nerven gekostet hat.
+Abschließend können wir ein wenig stolz von uns behaupten, wieder ein für unsere Verhältnisse sehr tolles Spiel programmiert zu haben, da wir vor einem Dreivierteljahr keinerlei Kenntnisse hatten und uns alles selbst erarbeitet haben. Nachdem es mit GameLab alles super funktioniert hatte, lief auch mit AppLab alles wie am Schnürchen, wobei natürlich die Einarbeitung mithilfe des Tutorials von code.org wieder einmal auf Dauer etwas lästig war, aber ohne kommen wir eben nicht aus. 
+Wir sind zufrieden mit unserem Ergebnis, vor allem mit unserem funktionierenden Scoreboard, welches uns die meisten Nerven gekostet hat.
