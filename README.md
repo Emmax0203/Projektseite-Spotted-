@@ -105,7 +105,7 @@ Spotted - Counter zurückgesetzt werden. Desweiteren muss natürlich auch die Ze
 ![Restartfunktion](https://github.com/AntoniaJohannes/Projektseite-Spotted-/blob/master/Restartfunktion.PNG)
 
 
-### Scoreboard<a name="4"></a>
+### Scoreboard
 
 Diese Funktion erklären wir seperat bei ["Das Scoreboard"](#Scoreboard).
 
